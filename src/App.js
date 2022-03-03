@@ -68,7 +68,7 @@ function App() {
 
       {page === 'dashboard' && (
         <>
-          <h1 className="text-6xl lg:text-8xl lg:text-center lg:p-10 my-10 lg:my-0">Dashboard</h1>
+          <h1 className='text-6xl lg:text-8xl lg:text-center lg:p-10 my-10 lg:my-0'>Dashboard</h1>
           <h2 className="text-4xl lg:text-center lg:p-10 my-10 lg:my-0">Trending Movies from Last 7 Days</h2>
           <div className='w-fit grid grid-cols-1 lg:grid-cols-3 lg:gap-4 lg:p-10'>
             {trending && trending.map((data, x) => 
